@@ -46,7 +46,7 @@ def verify_data():
 
 def get_total_profit(w,h):
     if w==0 or h ==0:
-        print("get profit : 0")
+        #print("get profit : 0")
         return 0
     '''
     if w<min_w or h<min_h:
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         print("sort_profit_ave is: ",sort_profit_ave)
 
         #get_min()
-        print("min_w is :", min_w)
-        print("min_h is :", min_h)
+        #print("min_w is :", min_w)
+        #print("min_h is :", min_h)
 
         print(get_total_profit(metal_W,metal_H))
